@@ -1,7 +1,7 @@
 ##Getting and Cleaning Data Course Project
 ========================================
 ###Processing Summary
-This script **run_analysis.R** summarizes the raw data from smartphones by individual and activity.
+The script file **run_analysis.R** summarizes the raw data output from smartphones by individual and activity.
 * reads each input file,
 * combines the training and test data,
 * labels the variables, activities, and subjects
