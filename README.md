@@ -1,6 +1,6 @@
-###Getting and Cleaning Data Course Project
+##Getting and Cleaning Data Course Project
 ========================================
-##Processing Summary
+#Processing Summary
 This utility summarizes the raw data from smartphones by individual and activity.
 * reads each input file,
 * combines the training and test data,
@@ -10,7 +10,7 @@ This utility summarizes the raw data from smartphones by individual and activity
 * A tidy dataset that contains 180 rows ( 30 volunteers * 6 activies), 
 and 81 columns (subject, activity + only colunms that contained mean or std in the feature names).
 
-##Running the Code
+#Running the Code
 How "run_analysis.R" script works.
 * Unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 * Retain the original folder name "UCI HAR Dataset".
@@ -21,7 +21,7 @@ How "run_analysis.R" script works.
   - TidyDataWithMeans.txt : Contains tab delimited file with a 180*68 dimension.(a summarized version by mean and SD parameters)
 * Use data <- read.table("TidyDataWithMeans.txt) command in RStudio to read the file. 
 
-##Input Data Files Used
+#Input Data Files Used
 * features.txt: names of the variables monitored
 * X_train.txt: training data
 * y_train.txt: activities
@@ -41,15 +41,13 @@ Then binds the train and test data together to form a unified data table
 It labels the activities with the appropriate names
 Adds the feature names to the data table columns
 
-##Output Files
+#Output Files
 The tidy data set with labels for both training and test data is outputted as tab delimited text file to the work directory.
 A second tidy data set is created with the mean of each feature for each activity for each subject.
 The second file is outputted as tab delimited text file to the work directory as well.
 
 
-
-
-## Background info about the Data
+# Background info about the Data
 Human Activity Recognition Using Smartphones Dataset Version 1.0
 Use of this dataset in publications must be acknowledged by referencing the following publication.
 
