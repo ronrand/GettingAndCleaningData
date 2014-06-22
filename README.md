@@ -11,15 +11,15 @@ This utility summarizes the raw data from smartphones by individual and activity
 and 81 columns (subject, activity + only colunms that contained mean or std in the feature names).
 
 ###Running the Code
-How "run_analysis.R" script works.
+How **run_analysis.R** script works.
 * Unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-* Retain the original folder name "UCI HAR Dataset".
-* Make sure the folder "UCI HAR Dataset" and the "run_analysis.R" script are both in the current working directory.
-* Use source("run_analysis.R") command in RStudio. 
+* Retain the original folder name **UCI HAR Dataset**.
+* Make sure the folder **UCI HAR Dataset** and the **run_analysis.R** script are both in the current working directory.
+* Use **source("run_analysis.R")** command in RStudio. 
 * Two output files are generated in the current working directory:
-  - TidyDataSet.txt : Contains a tab delimited file with a 10299*68 dimension. (average score by Subject and Activity)
-  - TidyDataWithMeans.txt : Contains tab delimited file with a 180*68 dimension.(a summarized version by mean and SD parameters)
-* Use data <- read.table("TidyDataWithMeans.txt) command in RStudio to read the file. 
+  - **TidyDataSet.txt** : Contains a tab delimited file with a 10299*68 dimension. (average score by Subject and Activity)
+  - **TidyDataWithMeans.txt** : Contains tab delimited file with a 180*68 dimension.(a summarized version by mean and SD parameters)
+* Use **data <- read.table("TidyDataWithMeans.txt")** command in RStudio to read the file. 
 
 ###Input Data Files Used
 * features.txt: names of the variables monitored
