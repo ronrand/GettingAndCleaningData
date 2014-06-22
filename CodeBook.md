@@ -1,7 +1,7 @@
 ##Getting and Cleaning Data Course Project CodeBook
 
 
-#The original Data source
+###The original Data source
 
 Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while 
 carrying a waist-mounted smartphone with embedded inertial sensors.
@@ -16,7 +16,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 * Raw data set download source:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#Transformation Steps
+###Transformation Steps
 Reads original data files and merges the training and test sets together
 X_train.txt	 assign to: 	trainData
 y_train.txt	 assign to: 	trainLabel
@@ -50,7 +50,7 @@ tbodyacc-std-z
 tgravityacc-mean-x
 tgravityacc-mean-y
 
-#Output Files
+###Output Files
 The tidy data set with labels for both training and test data is outputted as tab delimited text file to the work directory.
 A second tidy data set is created with the mean of each feature for each activity for each subject.
 The second file is outputted as tab delimited text file to the work directory as well.
